@@ -1,4 +1,4 @@
 
-# def prime?(num)
-#   if num % i != 0
-# end
+def prime?(num)
+  if num % i != 0
+end
