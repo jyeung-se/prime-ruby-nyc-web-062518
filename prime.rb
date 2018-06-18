@@ -1,8 +1,9 @@
 def prime?(integer)
-   if integer < 2
+  false if integer < 2
     (2...integer).each do |x|
-        if (integer % x) == 0
-            return false
-        end
-    return true
+      if (integer % x) == 0
+        false
+      end
+    end
+    true
 end
