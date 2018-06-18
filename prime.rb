@@ -1,6 +1,6 @@
 
-def is_prime?(*nums)
-    nums.each do |num|
+def prime?(num)
+    num.each do |num|
     i = 2
       while i < num
         if num % i == 0
